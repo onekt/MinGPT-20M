@@ -1,0 +1,24 @@
+# Ignore virtual environment folders (where libraries are stored)
+venv/
+.venv/
+env/
+ENV/
+
+# Ignore local packages folder if you use one
+lib/
+lib64/
+
+# Ignore distribution/installed package metadata
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+
+# --- IDE & OS Specific ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
